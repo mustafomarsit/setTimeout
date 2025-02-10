@@ -10,7 +10,7 @@ function updateTimer() {
 
     hoursSpan.textContent = formatTime(getHoursInsecs(timer));
     minutesSpan.textContent = formatTime(getMinutesInsecs(timer));
-    secondsSpa.textContent = formatTime(getSecondsInsecs(timer));
+    secondsSpan.textContent = formatTime(getSecondsInsecs(timer));
 }
 
 function getHoursInsecs(seconds){
